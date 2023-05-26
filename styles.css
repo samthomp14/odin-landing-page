@@ -37,3 +37,46 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero {
+    padding: 0 15%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    /*TODO finish header*/
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    
+}
+
+.sign-up {
+    background-color: #3882f6;
+    width: 100px;
+    padding: 5px;
+    color: #e5e7eb;
+    border-radius: 5px;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-subtext {
+    color: #e5e7eb;
+    
+}
+
+.image {
+    background-color: #6d747d ;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
