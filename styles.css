@@ -1,5 +1,4 @@
 * {
-    border: 2px dotted red;
     font-family: sans-serif;
 }
 
@@ -13,8 +12,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1f2937;
-    padding: 0 200px;
+    padding: 20px 200px;
 }
 
 .logo {
@@ -29,7 +29,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 24px;
 }
 
 a {
@@ -60,9 +60,11 @@ a {
     width: 130px;
     padding: 8px;
     color: #e5e7eb;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 
 .hero-heading {
@@ -90,25 +92,40 @@ a {
 .cta-button {
     background-color: #3882f6;
     color: #f9faf8;
-    border-color: #f9faf8;
-    border-radius: 5px;
-    border-style: solid;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    cursor: pointer;
+    width: 140px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px;
 }
 
 .call-to-action {
     background-color: #3882f6;
-    padding: 50px 120px;
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.cta-text {
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cta-header {
     color: #f9faf8;
     font-weight: bold;
+    font-size: 24px;
 }
 
 .cta-subtext {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .call-to-action-wrapper {
@@ -169,4 +186,23 @@ a {
 .quote-wrapper {
     height: 430px;
     background-color: #e5e7eb;
+    display: flex;
+    padding: 0 310px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1f2937;
+    align-self: flex-end;
+    padding-right: 36px;
 }
