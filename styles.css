@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 0 15%;
+    padding: 0 200px;
 }
 
 .logo {
@@ -39,7 +39,7 @@ a {
 }
 
 .hero {
-    padding: 0 15%;
+    padding: 140px 200px;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -49,16 +49,20 @@ a {
 .hero-text {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 15px;
+    justify-content: space-between;
+    padding-right: 50px;
     
 }
 
 .sign-up {
     background-color: #3882f6;
-    width: 100px;
-    padding: 5px;
+    width: 130px;
+    padding: 8px;
     color: #e5e7eb;
     border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .hero-heading {
@@ -69,7 +73,7 @@ a {
 
 .hero-subtext {
     color: #e5e7eb;
-    
+    font-size: 18px;
 }
 
 .image {
@@ -78,5 +82,53 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    width: 525px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 50px 120px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.cta-header {
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.cta-subtext {
+    color: #e5e7eb;
+}
+
+.call-to-action-wrapper {
+    padding: 100px 200px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    height: 100px;
+}
+
+.information {
+    height: 500px;
+    width: auto;
+}
+
+.quote-wrapper {
+    height: 430px;
+    background-color: #e5e7eb;
 }
